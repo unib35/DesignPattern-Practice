@@ -1,4 +1,4 @@
-package adapter_pattern;
+package adapter_pattern.ex1;
 
 public interface Adapter {
     //원하는 기능

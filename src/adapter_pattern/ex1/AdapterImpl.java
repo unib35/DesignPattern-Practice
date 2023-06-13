@@ -1,4 +1,4 @@
-package adapter_pattern;
+package adapter_pattern.ex1;
 
 public class AdapterImpl implements Adapter {
     @Override
