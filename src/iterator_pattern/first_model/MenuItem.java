@@ -1,4 +1,4 @@
-package iterator_pattern;
+package iterator_pattern.first_model;
 
 public class MenuItem {
     private final String name;
@@ -6,11 +6,11 @@ public class MenuItem {
     private final boolean vegetarian;
     private final double price;
 
-    public MenuItem(String name, String description, String vegetarian, String price){
+    public MenuItem(String name, String description, boolean vegetarian, double price){
         this.name = name;
         this.description = description;
-        this.vegetarian = Boolean.parseBoolean(vegetarian);
-        this.price = Double.parseDouble(price);
+        this.vegetarian = vegetarian;
+        this.price = price;
     }
 
     public String getName(){
